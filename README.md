@@ -32,7 +32,7 @@ One of the primary goals of Spring Integration is to simplify the development of
 
 ### Filter
 
-### Router
+### Splitter
 
 ### Router
 
