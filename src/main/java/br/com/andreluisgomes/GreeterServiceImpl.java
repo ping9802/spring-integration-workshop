@@ -12,10 +12,10 @@ import org.springframework.stereotype.Service;
 public class GreeterServiceImpl implements GreeterService {
 
   @Autowired
-  private MessageChannel channel1;
+  private MessageChannel channelRoute;
 
   @Override
-  public void greet(String name){
-      channel1.send(MessageBuilder.withPayload( name ).build() );
+  public void greet(Object payload){
+    channelRoute.send(MessageBuilder.withPayload(payload).build() );
   }
 }
