@@ -1,5 +1,6 @@
 package br.com.andreluisgomes;
 
+import br.com.andreluisgomes.messaging.annotations.App;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;

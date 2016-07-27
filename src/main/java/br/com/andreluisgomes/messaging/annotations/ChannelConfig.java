@@ -1,4 +1,4 @@
-package br.com.andreluisgomes;
+package br.com.andreluisgomes.messaging.annotations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.integration.channel.DirectChannel;
@@ -44,6 +44,11 @@ public class ChannelConfig {
 
   @Bean
   public MessageChannel channel5(){
+    return new DirectChannel();
+  }
+
+  @Bean
+  public MessageChannel discardedChannel(){
     return new DirectChannel();
   }
 }

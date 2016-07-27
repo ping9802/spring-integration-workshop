@@ -1,4 +1,4 @@
-package br.com.andreluisgomes;
+package br.com.andreluisgomes.messaging.annotations.endpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.MessageChannel;

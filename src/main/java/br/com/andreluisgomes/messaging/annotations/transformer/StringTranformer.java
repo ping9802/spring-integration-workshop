@@ -1,4 +1,4 @@
-package br.com.andreluisgomes;
+package br.com.andreluisgomes.messaging.annotations.transformer;
 
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.Transformer;

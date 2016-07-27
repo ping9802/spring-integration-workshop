@@ -1,5 +1,6 @@
-package br.com.andreluisgomes;
+package br.com.andreluisgomes.messaging.annotations.endpoint.serviceactivator;
 
+import br.com.andreluisgomes.messaging.annotations.endpoint.IntegerEndpoint;
 import org.springframework.integration.annotation.ServiceActivator;
 import org.springframework.stereotype.Service;
 
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Service;
  * Created by agomes on 17/07/16.
  */
 @Service
-public class HelloIntegersImpl implements IntegerEndpoint{
+public class HelloIntegersImpl implements IntegerEndpoint {
 
 
   @Override

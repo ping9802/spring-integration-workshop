@@ -1,4 +1,4 @@
-package br.com.andreluisgomes.router;
+package br.com.andreluisgomes.messaging.annotations.router;
 
 import org.springframework.integration.annotation.Router;
 import org.springframework.stereotype.Component;
